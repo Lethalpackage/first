@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class main {
+public class main {
+
+    public static void main(String[] args) {
+
+ String theWorld = new String("world");
+    }
 }
+
