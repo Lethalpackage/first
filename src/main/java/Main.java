@@ -1,40 +1,20 @@
-import Engine.EngineV12;
+import H.ListH;
 
 public class Main {
     public static void main(String[] args) {
+        ListH<String> list = new ListH<>();
+        list.add("Fisting");
+        list.add("anal");
+        list.add("gfgf");
 
-        Horn horn = new Horn();
-        EngineV12 engineV12 = new EngineV12();
-        Leftdoor leftdoor = new Leftdoor();
-        Right right = new Right();
-
-
-        Bus bus = new Bus52(horn, engineV12, leftdoor, right);
-        bus.stop(5);
-        bus.checkBeep();
-        bus.checkSpeed();
-        bus.stop(-2);
-
-
-
-
-
-
-
-
+        for(int i =0; i< list.length(); i++){
+            try {
+                System.out.println(list.get(i));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println("gfdgd");
     }
 
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
